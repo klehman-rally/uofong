@@ -1,0 +1,298 @@
+10,100,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,>,2018-01-25
+11,100,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,!=,2018-01-25
+12,100,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,>,5
+13,200,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,!=,2
+14,200,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,!=,In-Progress
+15,200,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,False
+16,300,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,!=,/story/67890
+17,300,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,>=,2018-08-27
+18,300,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,!=,2018-04-26
+19,400,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,=,Released
+20,400,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,has,True
+21,400,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,<,1
+22,500,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,<,2018-08-27
+23,500,6776da91-9729-42c7-bab1-395b596013f2,Tags,!~,/tag/67890
+24,500,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,!=,Design Mod
+25,600,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,<=,1
+26,600,6776da91-9729-42c7-bab1-395b596013f2,Tags,~,/tag/67890
+27,600,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Uncle Boris in his new prison uniform
+28,700,6776da91-9729-42c7-bab1-395b596013f2,Tags,!~,/tag/67890
+29,700,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,<=,2018-08-27
+30,700,6776da91-9729-42c7-bab1-395b596013f2,Tags,~,/tag/12345
+31,800,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Auntie Theresa visits uncle Boris in jail
+32,800,6776da91-9729-42c7-bab1-395b596013f2,Tags,!~,/tag/67890
+33,800,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,!=,/story/67890
+34,900,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,!=,Not a Defect
+35,900,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,=,Submitted
+36,900,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,=,/story/67890
+37,1000,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,>,2018-01-25
+38,1000,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,!=,Open
+39,1000,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,!=,Closed
+40,1100,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,True
+41,1100,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,!=,2018-08-27
+42,1100,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,=,Open
+43,1200,6776da91-9729-42c7-bab1-395b596013f2,Tags,!~,/tag/12345
+44,1200,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Failed to read docs
+45,1200,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,False
+46,1300,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,!=,8
+47,1300,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,<,3
+48,1300,6776da91-9729-42c7-bab1-395b596013f2,Tags,!~,/tag/12345
+49,1400,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,=,2018-04-26
+50,1400,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,!=,Released
+51,1400,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,=,/story/12345
+52,1500,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,=,/story/67890
+53,1500,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,!=,2018-04-26
+54,1500,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,!=,2018-04-26
+55,1600,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,!=,Accepted
+56,1600,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,>=,8
+57,1600,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Design Mod
+58,1700,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,>=,1
+59,1700,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,<=,2018-08-27
+60,1700,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,!=,In-Progress
+61,1800,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,!=,Released
+62,1800,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Uncle Boris in his new prison uniform
+63,1800,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,>,2018-04-26
+64,1900,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,!=,3
+65,1900,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,!=,/story/67890
+66,1900,500a0d67-9c48-4145-920c-821033e4a832,Name,!~,foo
+67,2000,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Auntie Theresa visits uncle Boris in jail
+68,2000,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,=,Fixed
+69,2000,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Uncle Boris in his new prison uniform
+70,2100,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,False
+71,2100,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,=,/story/12345
+72,2100,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Design Mod
+73,2200,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Operator Error
+74,2200,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,=,/story/12345
+75,2200,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Where is Waldo
+76,2300,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,True
+77,2300,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,>,3
+78,2300,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,=,Submitted
+79,2400,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,!=,Design Mod
+80,2400,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,!=,1
+81,2400,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,True
+82,2500,6776da91-9729-42c7-bab1-395b596013f2,Tags,!~,/tag/67890
+83,2500,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,<,2
+84,2500,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,=,1
+85,2600,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,True
+86,2600,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,>,3
+87,2600,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,=,Closed
+88,2700,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,has,False
+89,2700,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,=,Open
+90,2700,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,False
+91,2800,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,=,Closed
+92,2800,500a0d67-9c48-4145-920c-821033e4a832,Name,!~,foo
+93,2800,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,<,2018-08-27
+94,2900,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,!=,Closed
+95,2900,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,=,Released
+96,2900,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,=,/story/12345
+97,3000,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,!=,/story/12345
+98,3000,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Misunderstood Func
+99,3000,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,!=,Not a Defect
+100,3100,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Not a Defect
+101,3100,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,=,Defined
+102,3100,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,=,Closed
+103,3200,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,False
+104,3200,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,!=,8
+105,3200,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,>,2
+106,3300,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,>,2018-01-25
+107,3300,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,>=,1
+108,3300,500a0d67-9c48-4145-920c-821033e4a832,Name,~,foo
+109,3400,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,!=,Operator Error
+110,3400,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Where is Waldo
+111,3400,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,has,True
+112,3500,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,!=,2018-08-27
+113,3500,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,>=,2018-01-25
+114,3500,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,!=,Fixed
+115,3600,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,=,Defined
+116,3600,500a0d67-9c48-4145-920c-821033e4a832,Name,~,foo
+117,3600,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,!=,Misunderstood Func
+118,3700,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,!=,Code Change
+119,3700,6776da91-9729-42c7-bab1-395b596013f2,Tags,~,/tag/67890
+120,3700,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,!=,In-Progress
+121,3800,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Design Mod
+122,3800,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,!=,/story/12345
+123,3800,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,<,1
+124,3900,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Unhappy community organizer
+125,3900,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,!=,Fixed
+126,3900,6776da91-9729-42c7-bab1-395b596013f2,Tags,!~,/tag/12345
+127,4000,6776da91-9729-42c7-bab1-395b596013f2,Tags,~,/tag/12345
+128,4000,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,>=,2018-04-26
+129,4000,6776da91-9729-42c7-bab1-395b596013f2,Tags,~,/tag/12345
+130,4100,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,!=,/story/67890
+131,4100,500a0d67-9c48-4145-920c-821033e4a832,Name,!~,Where is Waldo
+132,4100,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,>=,2018-04-26
+133,4200,6776da91-9729-42c7-bab1-395b596013f2,Tags,~,/tag/12345
+134,4200,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,has,False
+135,4200,6776da91-9729-42c7-bab1-395b596013f2,Tags,~,/tag/12345
+136,4300,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,<,2018-08-27
+137,4300,6776da91-9729-42c7-bab1-395b596013f2,Tags,!~,/tag/67890
+138,4300,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,=,Submitted
+139,4400,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,=,Accepted
+140,4400,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,False
+141,4400,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,!=,/story/67890
+142,4500,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,=,/story/67890
+143,4500,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,!=,2018-01-25
+144,4500,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,has,True
+145,4600,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,<=,8
+146,4600,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,!=,Accepted
+147,4600,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Failed to read docs
+148,4700,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,=,Submitted
+149,4700,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,!=,/story/67890
+150,4700,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,!=,Fixed
+151,4800,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,=,/story/12345
+152,4800,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,=,2018-01-25
+153,4800,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,=,Submitted
+154,4900,500a0d67-9c48-4145-920c-821033e4a832,Name,!~,Where is Waldo
+155,4900,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,!=,Operator Error
+156,4900,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,!=,Open
+157,5000,6776da91-9729-42c7-bab1-395b596013f2,Tags,~,/tag/67890
+158,5000,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,>,5
+159,5000,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,!=,Code Change
+160,5100,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,!=,Submitted
+161,5100,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,=,/story/12345
+162,5100,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,<=,8
+163,5200,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,=,/story/67890
+164,5200,6776da91-9729-42c7-bab1-395b596013f2,Tags,!~,/tag/12345
+165,5200,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,!=,2018-08-27
+166,5300,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Auntie Theresa visits uncle Boris in jail
+167,5300,6776da91-9729-42c7-bab1-395b596013f2,Tags,~,/tag/67890
+168,5300,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,!=,/story/12345
+169,5400,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,!=,Released
+170,5400,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,!=,Design Mod
+171,5400,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,=,Released
+172,5500,500a0d67-9c48-4145-920c-821033e4a832,Name,!~,Auntie Theresa visits uncle Boris in jail
+173,5500,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,=,/story/67890
+174,5500,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,>,2018-04-26
+175,5600,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,!=,Closed
+176,5600,6776da91-9729-42c7-bab1-395b596013f2,Tags,~,/tag/12345
+177,5600,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,!=,Defined
+178,5700,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,<=,5
+179,5700,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,>,1
+180,5700,500a0d67-9c48-4145-920c-821033e4a832,Name,!~,Uncle Boris in his new prison uniform
+181,5800,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,!=,1
+182,5800,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,True
+183,5800,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,!=,/story/67890
+184,5900,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,!=,Failed to read docs
+185,5900,6776da91-9729-42c7-bab1-395b596013f2,Tags,!~,/tag/67890
+186,5900,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,!=,Fixed
+187,6000,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Code Change
+188,6000,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Code Change
+189,6000,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,!=,/story/12345
+190,6100,500a0d67-9c48-4145-920c-821033e4a832,Name,~,foo
+191,6100,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,!=,Closed
+192,6100,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Benji the dog
+193,6200,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,<=,3
+194,6200,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,True
+195,6200,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,has,False
+196,6300,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,!=,/story/67890
+197,6300,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,=,/story/12345
+198,6300,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,=,2018-04-26
+199,6400,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,!=,Open
+200,6400,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,has,False
+201,6400,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,True
+202,6500,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,<,2018-04-26
+203,6500,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Misunderstood Func
+204,6500,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,!=,Closed
+205,6600,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,!=,Code Change
+206,6600,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,!=,/story/67890
+207,6600,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,>,2018-04-26
+208,6700,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,<,5
+209,6700,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,has,True
+210,6700,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,has,True
+211,6800,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,!=,Not a Defect
+212,6800,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,!=,8
+213,6800,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Failed to read docs
+214,6900,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,!=,In-Progress
+215,6900,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,=,Submitted
+216,6900,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,<,2018-01-25
+217,7000,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Uncle Boris in his new prison uniform
+218,7000,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,=,Open
+219,7000,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,!=,/story/12345
+220,7100,500a0d67-9c48-4145-920c-821033e4a832,Name,!~,Uncle Boris in his new prison uniform
+221,7100,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,<,2018-08-27
+222,7100,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,=,/story/12345
+223,7200,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Not a Defect
+224,7200,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,=,8
+225,7200,500a0d67-9c48-4145-920c-821033e4a832,Name,~,foo
+226,7300,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,=,2
+227,7300,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,>=,2018-04-26
+228,7300,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,>=,3
+229,7400,500a0d67-9c48-4145-920c-821033e4a832,Name,!~,Benji the dog
+230,7400,500a0d67-9c48-4145-920c-821033e4a832,Name,!~,Uncle Boris in his new prison uniform
+231,7400,500a0d67-9c48-4145-920c-821033e4a832,Name,!~,Uncle Boris in his new prison uniform
+232,7500,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,!=,Defined
+233,7500,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,=,Submitted
+234,7500,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,=,Released
+235,7600,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,True
+236,7600,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Uncle Boris in his new prison uniform
+237,7600,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Misunderstood Func
+238,7700,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,False
+239,7700,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,<=,2
+240,7700,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Where is Waldo
+241,7800,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,=,Open
+242,7800,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,<=,2018-04-26
+243,7800,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,>,2018-04-26
+244,7900,6776da91-9729-42c7-bab1-395b596013f2,Tags,~,/tag/12345
+245,7900,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,=,/story/12345
+246,7900,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,!=,/story/12345
+247,8000,6776da91-9729-42c7-bab1-395b596013f2,Tags,~,/tag/67890
+248,8000,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,=,Accepted
+249,8000,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Auntie Theresa visits uncle Boris in jail
+250,8100,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,>=,2018-04-26
+251,8100,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,=,8
+252,8100,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,=,3
+253,8200,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,!=,5
+254,8200,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,>=,2018-04-26
+255,8200,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,has,True
+256,8300,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,=,Submitted
+257,8300,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,=,Submitted
+258,8300,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,=,/story/12345
+259,8400,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,!=,Submitted
+260,8400,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,!=,Not a Defect
+261,8400,500a0d67-9c48-4145-920c-821033e4a832,Name,!~,Unhappy community organizer
+262,8500,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Operator Error
+263,8500,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,<,2018-04-26
+264,8500,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,!=,5
+265,8600,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Uncle Boris in his new prison uniform
+266,8600,6776da91-9729-42c7-bab1-395b596013f2,Tags,!~,/tag/67890
+267,8600,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Code Change
+268,8700,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,!=,In-Progress
+269,8700,6776da91-9729-42c7-bab1-395b596013f2,Tags,~,/tag/12345
+270,8700,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,=,Released
+271,8800,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,!=,Defined
+272,8800,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Benji the dog
+273,8800,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,=,5
+274,8900,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,False
+275,8900,6776da91-9729-42c7-bab1-395b596013f2,Tags,!~,/tag/12345
+276,8900,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Auntie Theresa visits uncle Boris in jail
+277,9000,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,!=,Released
+278,9000,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,False
+279,9000,6776da91-9729-42c7-bab1-395b596013f2,Tags,~,/tag/67890
+280,9100,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Misunderstood Func
+281,9100,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,=,2018-01-25
+282,9100,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,has,True
+283,9200,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,False
+284,9200,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,>=,2018-01-25
+285,9200,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,!=,5
+286,9300,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,False
+287,9300,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,<,2
+288,9300,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,False
+289,9400,500a0d67-9c48-4145-920c-821033e4a832,Name,!~,foo
+290,9400,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,=,1
+291,9400,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Unhappy community organizer
+292,9500,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,=,/story/67890
+293,9500,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Not a Defect
+294,9500,301c3b83-a1f8-408c-883a-634d51493e60,Resolution,=,Failed to read docs
+295,9600,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,=,5
+296,9600,e0caf6dd-304b-447e-9d61-09ac9c96e85a,State,!=,Submitted
+297,9600,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,!=,/story/67890
+298,9700,500a0d67-9c48-4145-920c-821033e4a832,Name,!~,Where is Waldo
+299,9700,6776da91-9729-42c7-bab1-395b596013f2,Tags,!~,/tag/12345
+300,9700,1f4c4957-73af-4ad5-96d0-8482395bd06b,Requirement,=,/story/12345
+301,9800,24aa2a9e-8b98-4028-a999-ea6ae4d47150,Blocked,!has,False
+302,9800,500a0d67-9c48-4145-920c-821033e4a832,Name,~,Uncle Boris in his new prison uniform
+303,9800,7f25a8ae-6948-49a9-92f5-b437ca213251,PlanEstimate,!=,1
+304,9900,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,>=,2018-08-27
+305,9900,aad205e0-2fbe-11e4-8c21-0800200c9a66,ScheduleState,!=,Defined
+306,9900,70f4603e-8bb2-4307-a9ff-06ccfbd972ae,TargetDate,<,2018-04-26
+307,10001,feab547c-5a2c-93fdf-04bf-70bf3d0ac38a,BogosityQuotient,changed,festerol

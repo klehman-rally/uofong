@@ -1,0 +1,28 @@
+{"schema" :
+    [
+        {
+            "condition" :
+                {
+                    "id"             : "INT",
+                    "sub_id"         : "INT",
+                    "attribute_uuid" : "VARCHAR(50)",
+                    "attribute_name" : "VARCHAR(50)",
+                    "operator"       : "VARCHAR(50)",
+                    "value"          : "TEXT"
+                }
+        },
+        {
+            "webhook":
+                {
+                    "id"             : "INT",
+                    "sub_id"         : "INT",
+                    "name"           : "VARCHAR(50)",
+                    "target_url"     : "TEXT",
+                    "object_types"   : "TEXT[]",
+                    "conditions"     : "INT[]"
+                }
+        }
+
+    ]
+}
+
